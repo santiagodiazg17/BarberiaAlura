@@ -1,0 +1,150 @@
+body{
+    background: linear-gradient(#fefefe, gray);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0;
+}
+
+header {
+    background: url(imagenes/bg.jpg);
+    padding: 5px 0;
+    margin: 0%;
+}
+
+h1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+
+.imgHeader {
+    width: 7%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+}
+
+nav li{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 0 0 15px;
+}
+
+ul menu{
+    margin-top: 0%;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19
+    
+}
+
+footer{
+    width: 100%;
+    color: #BBBBBB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    margin-bottom: 0%;
+}
+
+
+.copyright{
+    font-size: 13px;
+    margin-bottom: 20px;
+
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+.formularioInfo{
+    display:flex;
+    flex-flow: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.formaContacto, .selectHorario, .novedades{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+form label{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.contact{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.novedades{
+    display: flex;
+    flex-direction: row;
+}
+
+.enviar{
+    flex-wrap: wrap;
+}
+
+form input{
+    font-weight: bold;
+    font-size: large;
+    display: inline;
+    margin: 0%;
+    padding: 0;
+    width: 50%;
+}
+
+form label{
+    display: flex;
+    flex-direction: row;
+}
+
+
+table{
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}

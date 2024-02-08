@@ -1,0 +1,91 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0;
+}
+
+header {
+    background: url(imagenes/bg.jpg);
+    padding: 5px 0;
+    margin: 0%;
+}
+
+h1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+
+.imgHeader {
+    width: 7%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+p{
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+body{
+    background-color: #CCCCCC;
+}
+
+#banner{
+    text-align: center;
+    width: 100%;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+
+
+em strong{
+    color: red;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#mision{
+    font-size: 20px"
+}
+
+.diferenciales{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.diferenciales{
+    text-align: center;
+}
+
+.class{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 30%;
+}
+
+.imagendiferenciales{
+    width: 50%;
+}
